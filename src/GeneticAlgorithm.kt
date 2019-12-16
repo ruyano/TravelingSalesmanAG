@@ -4,6 +4,7 @@ import operators.crossover.Crossover
 import operators.mutation.Mutation
 import operators.selection.Selection
 import utils.readFromFile
+import java.util.LinkedHashMap
 
 class GeneticAlgorithm (
     val maxGenerationNumber: Int = 50,
@@ -15,6 +16,7 @@ class GeneticAlgorithm (
     val shouldPrint: Boolean = false
 ) : Operator(shouldPrint) {
 
+    private var results: MutableMap<Int, Double> = LinkedHashMap()
     private var population = ArrayList<Subject>()
 
     init {
@@ -22,10 +24,11 @@ class GeneticAlgorithm (
         selectionMethod.setPopulation(population)
     }
 
-    fun execute() {
+    fun execute() : MutableMap<Int, Double> {
         for (i in 0 until maxGenerationNumber) {
             executeGeneration(i)
         }
+        return results
     }
 
     private fun executeGeneration(i: Int) {
@@ -33,6 +36,7 @@ class GeneticAlgorithm (
             generateSons()
         }
         oderPopulationByFitness()
+        results[i] = population[0].totalDistance()
         println("Melhor da geração $i = ${population[0]}")
         selectNextPopulation()
     }
@@ -64,9 +68,27 @@ class GeneticAlgorithm (
 
     private fun initializePopulation() {
         val distanceMatrix = readFromFile()
-        for (i in 0 until populationSize) {
-            population.add(Subject(distanceMatrix))
+        var i = 0
+        while (i < populationSize) {
+            val newSubject = Subject(distanceMatrix)
+            population.forEach { subject ->
+                if (isArraysEquals(subject.genes, newSubject.genes)) {
+                    return
+                }
+            }
+            population.add(newSubject)
+            i++
         }
+    }
+
+    private fun isArraysEquals(array1: ArrayList<Int>, array2: ArrayList<Int>): Boolean {
+        if (array1.size != array2.size) return false
+        array1.forEachIndexed{index, value ->
+            if (value != array2[index]) {
+                return false
+            }
+        }
+        return true
     }
 
     private fun printPopulation() {

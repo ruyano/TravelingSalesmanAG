@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c8e8b3-9e79-4f2e-b512-b3f3e6241197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/mutation/BitFlipMutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/mutation/Mutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_5_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm$execute$$inlined$sortByDescending$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelingSalesmanAG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TravelingSalesmanAG.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/META-INF/TravelingSalesmanAG.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/META-INF/TravelingSalesmanAG.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/objects/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/objects/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/Crossover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/Crossover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/PMX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/PMX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Roulette.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Roulette.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt$readFromFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt$readFromFile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithm.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Subject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Subject.kt" afterDir="false" />
@@ -51,7 +41,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfreechart-1.5.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -195,16 +189,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576357127240" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/operators/mutation/BitFlipMutation.kt</url>
-          <line>35</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

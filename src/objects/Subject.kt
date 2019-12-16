@@ -18,7 +18,7 @@ data class Subject(
         return 1 / totalDistance()
     }
 
-    private fun totalDistance(): Double {
+    fun totalDistance(): Double {
         var totalDistance = 0.0
         for (i in 0 until genes.size - 1) {
             val firstCity = genes[i]
