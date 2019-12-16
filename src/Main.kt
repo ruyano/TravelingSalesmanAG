@@ -14,8 +14,8 @@ object Main {
     fun main(args: Array<String>) {
         val results = GeneticAlgorithm(
             maxGenerationNumber = 50,
-            populationSize = 10,
-            crossOverAmount = 1,
+            populationSize = 5,
+            crossOverAmount = 2,
             selectionMethod = Roulette(),
             crossoverMethod = PMX(),
             mutation = BitFlipMutation(0.1),
