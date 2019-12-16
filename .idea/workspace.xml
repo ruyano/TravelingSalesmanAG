@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43c8e8b3-9e79-4f2e-b512-b3f3e6241197" name="Default Changelist" comment="" />
+    <list default="true" id="43c8e8b3-9e79-4f2e-b512-b3f3e6241197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/mutation/BitFlipMutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/mutation/Mutation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm$execute$$inlined$sortByDescending$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/GeneticAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/META-INF/TravelingSalesmanAG.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/META-INF/TravelingSalesmanAG.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/objects/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/objects/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/Crossover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/Crossover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/PMX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/crossover/PMX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Roulette.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Roulette.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/operators/selection/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt$readFromFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt$readFromFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesmanAG/utils/FileUtilsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Subject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Subject.kt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +36,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UzBbkKooqYoewXpFhCuDoeAOLz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +50,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -37,6 +65,18 @@
       <recent name="C:\Users\Ruyano\IdeaProjects\TravelingSalesmanAG\src" />
       <recent name="C:\Users\Ruyano\IdeaProjects\TravelingSalesmanAG" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -58,18 +98,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,6 +110,17 @@
       <updated>1576349616876</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="751" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1576442826069">
@@ -161,9 +200,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/GeneticAlgorithm.kt</url>
-          <line>18</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/operators/mutation/BitFlipMutation.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

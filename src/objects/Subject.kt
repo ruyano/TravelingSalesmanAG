@@ -37,7 +37,7 @@ data class Subject(
                 string += ", "
             }
         }
-        string += " } distancia total = ${totalDistance()} fitness = ${fitness()} probabilidade de seleção = ${selectionProbability * 100}%"
+        string += " } distancia total = ${totalDistance()} fitness = ${fitness()}"
         return string
     }
 

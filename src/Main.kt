@@ -1,4 +1,5 @@
 import operators.crossover.PMX
+import operators.mutation.BitFlipMutation
 import operators.selection.Roulette
 
 object Main {
@@ -9,7 +10,9 @@ object Main {
             maxGenerationNumber = 50,
             populationSize = 10,
             selectionMethod = Roulette(),
-            crossoverMethod = PMX()
+            crossoverMethod = PMX(),
+            mutation = BitFlipMutation(),
+            shouldPrint = true
         ).execute()
     }
 }
